@@ -1,0 +1,1 @@
+// Do something "n.times" (Simplifying "for" loops)
