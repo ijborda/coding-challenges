@@ -1,9 +1,15 @@
 // Four/Seven
 
 function fourSeven(n){
-    return +(Math.abs((-n + 11)).toString().replace(/[01235689]*/, 0)) 
-    // +(Math.abs((-n + 11)).toString().replace(/[^4][^7]/, 0))
+    let x = +((-n + 11).toString())
+    return Math.abs(Number(x === 4 || x === 7) * x)
 }
 
-let x = fourSeven(447)
+// Test 
+let x = fourSeven(7)
 console.log(x) // 7
+
+// Check it out
+function fourSeven(n){
+    return n === 7 && 4 || n === 4 && 7 || 0;
+}

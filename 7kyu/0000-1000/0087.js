@@ -2,15 +2,15 @@
 
 function duplicateSandwich(a) {
     let isArr = Array.isArray(a)
-    if (!true) a = [...a]
+    let arr = isArr ? a : [...a]
     let first
     let last
     let ans
-    a.forEach(el => {
-        first = a.indexOf(el)
-        last = a.lastIndexOf(el)
+    arr.forEach(el => {
+        first = arr.indexOf(el)
+        last = arr.lastIndexOf(el)
         if (first !== last) {
-            ans = a.slice(first + 1, last)
+            ans = arr.slice(first + 1, last)
             return 
         }
     })
@@ -18,5 +18,5 @@ function duplicateSandwich(a) {
 }
 
 // Test
-let x = duplicateSandwich('example')
+let x = duplicateSandwich([0, 1, 2, 3, 4, 5, 6, 1, 7, 8])
 console.log(x) // [2, 3, 4, 5, 6] 
