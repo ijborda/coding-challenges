@@ -1,6 +1,6 @@
 # 💪 My Daily Coding Challenges (Codewars)
 
-I saved my daily coding challenges here. Currently, I'm into codewars and JavaScript. I plan to finish all codewars JS problems! 
+I save my daily coding challenges here. Currently, I'm into codewars and JavaScript. I plan to finish all codewars JS problems! 
 
 What is codewars? Visit them [here](https://www.codewars.com)!
 
@@ -33,4 +33,4 @@ done
 * 2 kyu: 0/40
 * 1 kyu: 0/22
 
-Thanks for checking it out! 
+## Thanks for checking it out! 
