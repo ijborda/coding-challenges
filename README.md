@@ -1,6 +1,8 @@
 # 💪 My Daily Coding Challenges (Codewars)
 
-I save my daily coding challenges here. Currently, I'm into codewars and JavaScript. I plan to finish all codewars JS problems! 
+A repository filled with my daily codewars challenges (kata). Currently ranked #4,525 on the global leaderboard. Completed over 500+ problems.
+
+I'm into JavaScript right now, and I plan to finish all JS katas!
 
 What is codewars? Visit them [here](https://www.codewars.com)!
 
@@ -22,7 +24,6 @@ do
 done
 ```
 
-
 ## My Progress
 * 8 kyu: 390/390 ✅
 * 7 kyu: 160/1899
@@ -34,3 +35,9 @@ done
 * 1 kyu: 0/22
 
 ## Thanks for checking it out! 
+
+Check out my other projects:
+
+* [Codie | See your Codewars Stats at a Glance](https://github.com/ijborda/codie)
+* [Daily Inspiration | Start your Day Inspired](https://github.com/ijborda/daily-inspiration)
+* [COVID-19 Statistics | A COVID-19 Monitoring App](https://github.com/ijborda/covid19-statistics)
